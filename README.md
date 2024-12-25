@@ -1,4 +1,4 @@
-# Proyek Penilaian Kualitas Udara
+# Proyek Penilaian Kualitas Udara 🌍🌫️💨
 
 ## Deskripsi Proyek
 Proyek ini berfokus pada penilaian kualitas udara dengan memanfaatkan teknik machine learning/deep learning tingkat lanjut. Aplikasi ini dirancang untuk memberikan antarmuka yang intuitif kepada pengguna agar dapat memahami klasifikasi kualitas udara berdasarkan fitur-fitur tertentu. Proyek ini dikembangkan untuk mengetahui kualitas uadara yang terdiri dari Good(baik), Moderate(Sedang), Poor(Buruk), dan Hazardous(berbahaya).
