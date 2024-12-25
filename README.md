@@ -39,7 +39,8 @@ Berikut adalah gambar Classification report dari kedua Model
 
 - Akurasi Pelatihan vs Validasi: Grafik akurasi menunjukkan bahwa akurasi pelatihan dan validasi cenderung tinggi, dengan fluktuasi kecil seiring epoch. Ini menandakan bahwa model bekerja dengan baik, namun adanya sedikit perbedaan antara akurasi pelatihan dan validasi menunjukkan bahwa model mungkin mengalami variasi performa dalam generalisasi pada data validasi.
 - Loss Pelatihan vs Validasi: Grafik loss menunjukkan nilai loss pelatihan yang terus menurun, sementara loss validasi cenderung stabil di sekitar nilai rendah, meskipun dengan fluktuasi kecil. Hal ini menandakan model tidak mengalami overfitting yang signifikan, tetapi fluktuasi dapat menunjukkan model masih memiliki ruang untuk stabilisasi performa.
-Performa Berdasarkan Kelas:
+  
+### Performa Berdasarkan Kelas:
 
 **Good**: Performa sempurna dengan precision, recall, dan F1-score mencapai 1.00, yang menunjukkan bahwa semua sampel kelas ini diprediksi dengan benar.
   
