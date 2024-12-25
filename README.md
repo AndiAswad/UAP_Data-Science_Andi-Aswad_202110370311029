@@ -6,32 +6,24 @@ Proyek ini berfokus pada penilaian kualitas udara dengan memanfaatkan teknik mac
 ## Dataset
 Dataset yang digunakan dalam proyek ini diambil dari Kaggle: [Air Quality and Pollution Assessment](https://www.kaggle.com/datasets/mujtabamatin/air-quality-and-pollution-assessment). Dataset ini terdiri dari 4.000 data. Teknik augmentasi diterapkan pada data train, sehingga jumlah data train meningkat menjadi 1.100, yang bertujuan untuk meningkatkan performa dan ketahanan model.
 
-## Instalasi
-Untuk menginstal dan menjalankan aplikasi ini:
-1. Clone repositori:
-   ```bash
-   git clone https://github.com/yourusername/project-repo-name.git
-   ```
-2. Masuk ke direktori proyek:
-   ```bash
-   cd project-repo-name
-   ```
-3. Instal dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-4. Jalankan aplikasi:
-   ```bash
-   streamlit run app.py
-   ```
-Atau, akses aplikasi web yang dihosting di Streamlit Cloud.
+## Dependensi
+Aplikasi ini memerlukan beberapa pustaka Python berikut:
+- **Streamlit**: Untuk membangun antarmuka web interaktif.
+- **Joblib**: Untuk menyimpan dan memuat model machine learning.
+- **NumPy**: Untuk manipulasi array numerik.
+- **Pandas**: Untuk manipulasi dan analisis data.
+- **Plotly**: Untuk visualisasi data yang interaktif.
+- **Pathlib**: Untuk manajemen jalur file.
+- **TensorFlow dan Keras**: Untuk membangun dan memuat model deep learning.
+
+Semua pustaka ini dapat diinstal menggunakan file `requirements.txt` yang tersedia dalam repositori.
 
 ## Deskripsi Model
-Proyek ini menggunakan dua model transfer learning untuk klasifikasi kualitas udara:
-- **GoogLeNet**: Arsitektur jaringan neural convolutional yang dikenal efisien dan akurat.
-- **VGG16**: Arsitektur transfer learning lain yang terkenal karena kesederhanaan dan efektivitasnya.
+Proyek ini menggunakan dua model pembelajaran mesin untuk klasifikasi kualitas udara:
+- **FeedForward Neural Network (FFNN)**: Model jaringan neural sederhana untuk pengolahan data tabular.
+- **Random Forest**: Algoritma ensemble berbasis pohon keputusan untuk klasifikasi data tabular.
 
-Kedua model tersebut di-fine-tune untuk mengklasifikasikan kualitas udara berdasarkan dataset yang telah diaugmentasi.
+Kedua model ini dioptimalkan untuk menghasilkan prediksi kualitas udara dengan akurasi tinggi berdasarkan dataset yang telah diproses.
 
 ## Hasil dan Analisis
 Bagian ini akan memuat visualisasi dan analisis performa model, termasuk akurasi, kurva loss, dan prediksi. (Akan ditambahkan kemudian.)
