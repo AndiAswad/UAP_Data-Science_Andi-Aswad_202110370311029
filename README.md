@@ -29,14 +29,14 @@ Kedua model ini dioptimalkan untuk menghasilkan prediksi kualitas udara dengan a
 Bagian ini akan memuat visualisasi dan analisis performa model, termasuk akurasi, kurva loss, dan prediksi. (Akan ditambahkan kemudian.)
 
 ## Link Pembuatan Model
-[Pembuatan Model RandoForest](https://colab.research.google.com/drive/1oWdJ6o3Q0Olz56l99KtgcY14z731-fXy?usp=sharing)
-[Pembuatan Model Feed Forward Neural Network](https://colab.research.google.com/drive/1n58CBTxDErRA_gYWAJ0Oz9ePHVv1xyni?usp=sharing)
+- [Pembuatan Model RandoForest](https://colab.research.google.com/drive/1oWdJ6o3Q0Olz56l99KtgcY14z731-fXy?usp=sharing)
+- [Pembuatan Model Feed Forward Neural Network](https://colab.research.google.com/drive/1n58CBTxDErRA_gYWAJ0Oz9ePHVv1xyni?usp=sharing)
 
 ## Link Aplikasi Web
 [Telusuri Aplikasi Web Streamlit](https://uapandiaswad.streamlit.app/)
 
 ## Tampilan Web
-Tangkapan layar antarmuka akan ditambahkan di sini. (Akan ditambahkan kemudian.) 
+![Gambar](https://github.com/AndiAswad/UAP/blob/main/Image/Gambar%20WhatsApp%202024-12-18%20pukul%2016.51.27_719d9ddc.jpg)
 
 ## Penulis
 [Andi Aswad](https://github.com/AndiAswad)
