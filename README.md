@@ -28,7 +28,8 @@ Kedua model ini dioptimalkan untuk menghasilkan prediksi kualitas udara dengan a
 ## Hasil dan Analisis
 Berikut adalah gambar Classification report dari kedua Model
 - **Random Forest**
-![Gambar](https://github.com/AndiAswad/UAP_Data-Science_Andi-Aswad_202110370311029/blob/main/Images/app1.png)
+![Gambar](https://github.com/AndiAswad/UAP_Data-Science_Andi-Aswad_202110370311029/blob/main/Images/akurasiRandomForest.png)
+
 - **FeedForward Neural Network (FFNN)**
 ![Gambar](https://github.com/AndiAswad/UAP_Data-Science_Andi-Aswad_202110370311029/blob/main/Images/akurasiffnn.png)
 ![Gambar](https://github.com/AndiAswad/UAP_Data-Science_Andi-Aswad_202110370311029/blob/main/Images/grafikffnn.png)
