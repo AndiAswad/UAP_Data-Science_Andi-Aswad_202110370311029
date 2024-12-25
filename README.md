@@ -26,7 +26,12 @@ Proyek ini menggunakan dua model pembelajaran mesin untuk klasifikasi kualitas u
 Kedua model ini dioptimalkan untuk menghasilkan prediksi kualitas udara dengan akurasi tinggi berdasarkan dataset yang telah diproses.
 
 ## Hasil dan Analisis
-Bagian ini akan memuat visualisasi dan analisis performa model, termasuk akurasi, kurva loss, dan prediksi. (Akan ditambahkan kemudian.)
+Berikut adalah gambar Classification report dari kedua Model
+- **Random Forest**
+![Gambar](https://github.com/AndiAswad/UAP_Data-Science_Andi-Aswad_202110370311029/blob/main/Images/app1.png)
+- **FeedForward Neural Network (FFNN)**
+![Gambar](https://github.com/AndiAswad/UAP_Data-Science_Andi-Aswad_202110370311029/blob/main/Images/akurasiffnn.png)
+![Gambar](https://github.com/AndiAswad/UAP_Data-Science_Andi-Aswad_202110370311029/blob/main/Images/grafikffnn.png)
 
 ## Link Pembuatan Model
 - [Pembuatan Model RandoForest](https://colab.research.google.com/drive/1oWdJ6o3Q0Olz56l99KtgcY14z731-fXy?usp=sharing)
@@ -38,7 +43,6 @@ Bagian ini akan memuat visualisasi dan analisis performa model, termasuk akurasi
 ## Tampilan Web
 ![Gambar](https://github.com/AndiAswad/UAP_Data-Science_Andi-Aswad_202110370311029/blob/main/Images/app1.png)
 ![Gambar](https://github.com/AndiAswad/UAP_Data-Science_Andi-Aswad_202110370311029/blob/main/Images/app1.png)
-
 
 ## Penulis
 [Andi Aswad](https://github.com/AndiAswad)
