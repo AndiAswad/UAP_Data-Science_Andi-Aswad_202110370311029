@@ -1,10 +1,10 @@
 # Proyek Penilaian Kualitas Udara
 
 ## Deskripsi Proyek
-Proyek ini berfokus pada penilaian kualitas udara dengan memanfaatkan teknik machine learning tingkat lanjut. Aplikasi ini dirancang untuk memberikan antarmuka yang intuitif kepada pengguna agar dapat memahami klasifikasi kualitas udara berdasarkan fitur-fitur tertentu. Proyek ini dikembangkan untuk meningkatkan kesadaran terhadap tingkat polusi dan mendukung upaya pelestarian lingkungan.
+Proyek ini berfokus pada penilaian kualitas udara dengan memanfaatkan teknik machine learning/deep learning tingkat lanjut. Aplikasi ini dirancang untuk memberikan antarmuka yang intuitif kepada pengguna agar dapat memahami klasifikasi kualitas udara berdasarkan fitur-fitur tertentu. Proyek ini dikembangkan untuk mengetahui kualitas uadara yang terdiri dari Good(baik), Moderate(Sedang), Poor(Buruk), dan Hazardous(berbahaya).
 
 ## Dataset
-Dataset yang digunakan dalam proyek ini diambil dari Kaggle: [Air Quality and Pollution Assessment](https://www.kaggle.com/datasets/mujtabamatin/air-quality-and-pollution-assessment). Dataset ini terdiri dari 4.000 data. Teknik augmentasi diterapkan pada data train, sehingga jumlah data train meningkat menjadi 1.100, yang bertujuan untuk meningkatkan performa dan ketahanan model.
+Dataset yang digunakan dalam proyek ini diambil dari Kaggle: [Air Quality and Pollution Assessment](https://www.kaggle.com/datasets/mujtabamatin/air-quality-and-pollution-assessment). Dataset ini terdiri dari 5000 data. Teknik augmentasi diterapkan pada data train, sehingga jumlah data train meningkat menjadi 12.000, yang bertujuan untuk meningkatkan performa dan ketahanan model.
 
 ## Dependensi
 Aplikasi ini memerlukan beberapa pustaka Python berikut:
