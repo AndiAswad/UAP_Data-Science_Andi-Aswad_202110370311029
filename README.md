@@ -36,7 +36,7 @@ Bagian ini akan memuat visualisasi dan analisis performa model, termasuk akurasi
 [Telusuri Aplikasi Web Streamlit](https://uapandiaswad.streamlit.app/)
 
 ## Tampilan Web
-Tangkapan layar antarmuka akan ditambahkan di sini. (Akan ditambahkan kemudian.)
+Tangkapan layar antarmuka akan ditambahkan di sini. (Akan ditambahkan kemudian.) 
 
 ## Penulis
 [Andi Aswad](https://github.com/AndiAswad)
