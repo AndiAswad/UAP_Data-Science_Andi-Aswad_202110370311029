@@ -36,7 +36,9 @@ Bagian ini akan memuat visualisasi dan analisis performa model, termasuk akurasi
 [Telusuri Aplikasi Web Streamlit](https://uapandiaswad.streamlit.app/)
 
 ## Tampilan Web
-![Gambar](https://github.com/AndiAswad/UAP/blob/main/Image/Gambar%20WhatsApp%202024-12-18%20pukul%2016.51.27_719d9ddc.jpg)
+![Gambar](https://github.com/AndiAswad/UAP_Data-Science_Andi-Aswad_202110370311029/blob/main/Images/app1.png)
+![Gambar](https://github.com/AndiAswad/UAP_Data-Science_Andi-Aswad_202110370311029/blob/main/Images/app1.png)
+
 
 ## Penulis
 [Andi Aswad](https://github.com/AndiAswad)
