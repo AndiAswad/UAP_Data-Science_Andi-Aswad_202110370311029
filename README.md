@@ -34,7 +34,20 @@ Berikut adalah gambar Classification report dari kedua Model
 - **FeedForward Neural Network (FFNN)**
   
 ![Gambar](https://github.com/AndiAswad/UAP_Data-Science_Andi-Aswad_202110370311029/blob/main/Images/akurasiffnn.png)
+
 ![Gambar](https://github.com/AndiAswad/UAP_Data-Science_Andi-Aswad_202110370311029/blob/main/Images/grafikffnn.png)
+
+- Akurasi Pelatihan vs Validasi: Grafik akurasi menunjukkan bahwa akurasi pelatihan dan validasi cenderung tinggi, dengan fluktuasi kecil seiring epoch. Ini menandakan bahwa model bekerja dengan baik, namun adanya sedikit perbedaan antara akurasi pelatihan dan validasi menunjukkan bahwa model mungkin mengalami variasi performa dalam generalisasi pada data validasi.
+- Loss Pelatihan vs Validasi: Grafik loss menunjukkan nilai loss pelatihan yang terus menurun, sementara loss validasi cenderung stabil di sekitar nilai rendah, meskipun dengan fluktuasi kecil. Hal ini menandakan model tidak mengalami overfitting yang signifikan, tetapi fluktuasi dapat menunjukkan model masih memiliki ruang untuk stabilisasi performa.
+- Performa Berdasarkan Kelas:
+**Good**: Performa sempurna dengan precision, recall, dan F1-score mencapai 1.00, yang menunjukkan bahwa semua sampel kelas ini diprediksi dengan benar.
+  
+**Hazardous**: Precision dan recall masing-masing 0.88 dan 0.86 menunjukkan model sedikit kesulitan membedakan sampel kelas ini dengan kelas lain, yang mungkin disebabkan oleh distribusi data atau fitur yang kurang representatif.
+  
+**Moderate**: Nilai precision, recall, dan F1-score sangat tinggi (0.97), menunjukkan model mampu mengklasifikasikan kelas ini dengan baik.
+  
+**Poor**: Hasil serupa dengan kelas Hazardous, di mana precision dan recall mendekati 0.87, menunjukkan beberapa kesalahan prediksi.
+Akurasi Keseluruhan: Model mencapai akurasi 95%, yang merupakan hasil yang sangat baik.
 
 ## Link Pembuatan Model
 - [Pembuatan Model RandoForest](https://colab.research.google.com/drive/1oWdJ6o3Q0Olz56l99KtgcY14z731-fXy?usp=sharing)
