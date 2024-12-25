@@ -31,6 +31,9 @@ Berikut adalah gambar Classification report dari kedua Model
   
 ![Gambar](https://github.com/AndiAswad/UAP_Data-Science_Andi-Aswad_202110370311029/blob/main/Images/akurasiRandomForest.png)
 
+- Model Random Forest bekerja sangat baik dengan akurasi tinggi (96%).
+- Kinerja pada kelas Hazardous dan Poor sedikit lebih rendah dibandingkan kelas lainnya, dengan F1-score sebesar 0.89. Ini bisa ditingkatkan dengan teknik seperti SMOTE untuk menangani distribusi data yang tidak seimbang, atau penyesuaian parameter model.
+
 - **FeedForward Neural Network (FFNN)**
   
 ![Gambar](https://github.com/AndiAswad/UAP_Data-Science_Andi-Aswad_202110370311029/blob/main/Images/akurasiffnn.png)
@@ -50,6 +53,10 @@ Berikut adalah gambar Classification report dari kedua Model
   
 **Poor**: Hasil serupa dengan kelas Hazardous, di mana precision dan recall mendekati 0.87, menunjukkan beberapa kesalahan prediksi.
 Akurasi Keseluruhan: Model mencapai akurasi 95%, yang merupakan hasil yang sangat baik.
+
+### Perbandingan Model
+- Random Forest lebih unggul dalam hal akurasi, stabilitas, dan kinerja per kelas. Model ini cocok untuk dataset dengan distribusi data yang seimbang seperti yang digunakan.
+- FFNN menunjukkan potensi, tetapi kinerjanya menurun akibat overfitting. Model ini memerlukan lebih banyak upaya seperti dropout, data augmentation, atau pengaturan arsitektur untuk meningkatkan generalisasi.
 
 ## Link Pembuatan Model
 - [Pembuatan Model RandoForest](https://colab.research.google.com/drive/1oWdJ6o3Q0Olz56l99KtgcY14z731-fXy?usp=sharing)
